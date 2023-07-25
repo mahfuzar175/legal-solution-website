@@ -26,7 +26,7 @@
     </style>
   </head>
   <body>
-    <header class="container mx-auto mt-16">
+    <header class="container lg:w-[80%] mx-auto mt-6">
         <!-- navbar section -->
         <nav class="font-poppins">
             <div class="navbar bg-base-100">
@@ -60,8 +60,8 @@
               </div>
         </nav>
         <!-- banner section -->
-        <section class="mt-12">
-            <div class="hero min-h-screen" style="background-image: url(./images/banner.png);">
+        <section class="mt-6">
+            <div class="hero w-full h-[500px]" style="background-image: url(./images/banner.png);">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
                   <div class="max-w-md">
@@ -76,7 +76,7 @@
               </div>
         </section>
     </header>
-    <main class="container mx-auto">
+    <main class="container lg:w-[80%] mx-auto">
         <!-- The Legal Practice Area section -->
         <section class="text-center my-32">
             <div class="text-center m-3">
@@ -155,13 +155,13 @@
 
         <!-- client section -->
         <section class="text-center my-32">
-            <div class="text-center m-3">
+            <div class="text-center m-2">
                 <h2 class="font-extrabold text-4xl font-er_garamond mt-30 mb-6">What Our Client Say</h2>
                 <p class="font-poppins text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
             </div>
             <!-- slider -->
-            <div class="mt-16">
-                <div class="carousel w-full rounded-">
+            <div class="mt-8">
+                <div class="carousel w-full h-[500px] rounded">
                     <div id="slide1" class="carousel-item relative w-full">
                       <img src="./images/banner.png" class="w-full" />
                       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
@@ -224,6 +224,61 @@
                       </div> 
                   </div>
             </div>
+        </section>
+
+        <!-- question section -->
+        <section class="text-center my-32">
+            <div class="text-center m-3 mb-8">
+                <h2 class="font-extrabold text-4xl font-er_garamond mt-30 mb-6">What Our Client Say</h2>
+                <p class="font-poppins text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+            </div>
+          <div class="hero">
+            <div class="hero-content flex-col lg:gap-24 lg:flex-row">
+              <div>
+                <div class="collapse collapse-arrow">
+                  <input type="radio" name="my-accordion-2" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    <!-- question no-01 -->
+                    1. Are application fee waivers available?
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow">
+                  <input type="radio" name="my-accordion-2" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    <!-- question no-02 -->
+                    2. Are application fee waivers available?
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow">
+                  <input type="radio" name="my-accordion-2" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    <!-- question no-03 -->
+                    3. Are application fee waivers available?
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow">
+                  <input type="radio" name="my-accordion-2" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    <!-- question no-04 -->
+                    4. Are application fee waivers available?
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
+                  </div>
+                </div>
+              </div>
+              <img src="./images/faq.png" class="w-3/4 lg:max-w-sm rounded-lg shadow-2xl" />
+            </div>
+          </div>
         </section>
     </main>
     <footer>
